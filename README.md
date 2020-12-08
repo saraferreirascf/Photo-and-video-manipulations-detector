@@ -26,14 +26,13 @@ After you have that, you need to download our detector. Click on your prefered s
   <div class="column">
     <img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/windows.png" alt="Click to download" width="50" href="https://www.autopsy.com/download/" />
   </div>
-  
-  <div class="column">
+<div class="column">
    <img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/apple.png" alt="Click to download" width="50" href="https://www.autopsy.com/download/"/>
   </div>
   <div class="column">
     <img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/linux.png" alt="Click to download" width="50" href="https://www.autopsy.com/download/"/>
   </div>
-</div><br/>
+</div>
 
 
 Next, you need to unzip the rar and place the folder in the python plugin folder of Autopsy. In order do find that you can go to Autopsy > Python Plugins.
