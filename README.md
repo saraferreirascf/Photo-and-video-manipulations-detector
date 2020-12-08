@@ -16,7 +16,7 @@ This plugin takes all images from the case and presents the probability of being
 
 First you need to install Autopsy. After you have that, you need to download our detector. 
 
-![alt text](https://github.com/saraferreirascf/Deep-fake-detector/blob/main/autopsy.jpeg "Click to dowload")
+<a href="https://www.autopsy.com/download/" target="_blank" rel="Click to dowload" >![Foo](https://github.com/saraferreirascf/Deep-fake-detector/blob/main/autopsy.jpeg)</a>
 
 Click on your prefered software in order to get the correct version for you.
 
