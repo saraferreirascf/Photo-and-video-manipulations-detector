@@ -1,4 +1,4 @@
-# Deep-fake-detector
+# Deep-fake-detector :computer: :mag_right:
 
 Deep fake detector is a plugin for Autopsy meant to detect deep fakes or even other types or image manipulations.
 This plugin takes all images from the case and presents the probability of being manipulated.
