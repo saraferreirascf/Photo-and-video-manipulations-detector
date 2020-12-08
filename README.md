@@ -12,13 +12,29 @@ This plugin takes all images from the case and presents the probability of being
 
 ## How it works
 
+<img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/arquitetura3.png" alt="Click to download" width="700"/>
+
 ## Installation
 
-First you need to install Autopsy. After you have that, you need to download our detector. 
+First you need to install Autopsy. 
 
-<a href="https://www.autopsy.com/download/" target="_blank" rel="Click to dowload" >![Foo](https://github.com/saraferreirascf/Deep-fake-detector/blob/main/autopsy.jpeg)</a>
+<a href="https://www.autopsy.com/download/" target="_blank" rel="Click to dowload" >![Foo](https://github.com/saraferreirascf/Deep-fake-detector/blob/main/autopsy.jpeg)</a><br/>
 
-Click on your prefered software in order to get the correct version for you.
+After you have that, you need to download our detector. Click on your prefered software in order to get the correct version for you.<br/>
+
+<div class="row">
+  <div class="column">
+    <img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/windows.png" alt="Click to download" width="50" href="https://www.autopsy.com/download/" />
+  </div>
+  
+  <div class="column">
+   <img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/apple.png" alt="Click to download" width="50" href="https://www.autopsy.com/download/"/>
+  </div>
+  <div class="column">
+    <img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/linux.png" alt="Click to download" width="50" href="https://www.autopsy.com/download/"/>
+  </div>
+</div><br/>
+
 
 Next, you need to unzip the rar and place the folder in the python plugin folder of Autopsy. In order do find that you can go to Autopsy > Python Plugins.
 
