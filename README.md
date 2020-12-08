@@ -16,6 +16,8 @@ This plugin takes all images from the case and presents the probability of being
 
 First you need to install Autopsy. After you have that, you need to download our detector. 
 
+![alt text](https://github.com/saraferreirascf/Deep-fake-detector/blob/main/autopsy.jpeg "Click to dowload")
+
 Click on your prefered software in order to get the correct version for you.
 
 Next, you need to unzip the rar and place the folder in the python plugin folder of Autopsy. In order do find that you can go to Autopsy > Python Plugins.
