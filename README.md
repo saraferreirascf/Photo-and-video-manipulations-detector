@@ -22,17 +22,11 @@ First you need to install Autopsy.
 
 After you have that, you need to download our detector. Click on your prefered software in order to get the correct version for you.<br/>
 
-<div class="row">
-  <div class="column">
-    <img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/windows.png" alt="Click to download" width="50" href="https://www.autopsy.com/download/" />
-  </div>
-<div class="column">
-   <img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/apple.png" alt="Click to download" width="50" href="https://www.autopsy.com/download/"/>
-  </div>
-  <div class="column">
-    <img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/linux.png" alt="Click to download" width="50" href="https://www.autopsy.com/download/"/>
-  </div>
-</div>
+
+| Windows       | OSX           | Linux  |
+| ------------- |:-------------:| -----:|
+| <img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/windows.png" alt="Click to download" width="50" href="https://www.autopsy.com/download/" /> | <img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/apple.png" alt="Click to download" width="50" href="https://www.autopsy.com/download/"/> | <img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/linux.png" alt="Click to download" width="50" href="https://www.autopsy.com/download/"/> |
+
 
 
 Next, you need to unzip the rar and place the folder in the python plugin folder of Autopsy. In order do find that you can go to Autopsy > Python Plugins.
