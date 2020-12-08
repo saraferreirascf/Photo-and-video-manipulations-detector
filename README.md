@@ -1,6 +1,6 @@
 # Deep-fake-detector :computer: :mag_right:
 
-Deep fake detector is a plugin for Autopsy meant to detect deep fakes or even other types or image manipulations.
+Deep fake detector is a plugin for Autopsy meant to detect deep fakes or even other types of image manipulations.
 This plugin takes all images from the case and presents the probability of being manipulated.
 
 ## Features
@@ -12,13 +12,13 @@ This plugin takes all images from the case and presents the probability of being
 
 ## How it works
 
-<img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/arquitetura3.png" alt="Click to download" width="700"/>
+<img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/arquitetura3.png" alt="Click to download" width="600"/>
 
 ## Installation
 
-First you need to install Autopsy. 
+First you need to install Autopsy.
 
-<a href="https://www.autopsy.com/download/" target="_blank" rel="Click to dowload" >![Foo](https://github.com/saraferreirascf/Deep-fake-detector/blob/main/autopsy.jpeg)</a><br/>
+<a href="https://www.autopsy.com/download/" width="200" target="_blank" rel="Click to dowload" >![Foo](https://github.com/saraferreirascf/Deep-fake-detector/blob/main/autopsy.jpeg)</a><br/>
 
 After you have that, you need to download our detector. Click on your prefered software in order to get the correct version for you.<br/>
 
@@ -29,7 +29,7 @@ After you have that, you need to download our detector. Click on your prefered s
 
 
 
-Next, you need to unzip the rar and place the folder in the python plugin folder of Autopsy. In order do find that you can go to Autopsy > Python Plugins.
+Next, you need to unzip the rar and place the folder in the python plugin folder of Autopsy. In order do find that you can go to Autopsy > Tools > Python Plugins.
 
 If you did everything well, now when you can see our plugin in the Autopsy when you do a ingest.
 
