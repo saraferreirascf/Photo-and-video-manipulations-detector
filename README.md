@@ -12,7 +12,7 @@ This plugin takes all images from the case and presents the probability of being
 
 ## How it works
 
-<img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/arquitetura3.png" alt="Click to download" width="600"/>
+<img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/arquitetura-geral.png" alt="Click to download" width="600"/>
 
 ## Installation
 
