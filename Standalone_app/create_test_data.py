@@ -1,3 +1,14 @@
+#////////////////////////////////////////////////#
+#                                                #
+#                                                #
+#   Script to create test data by Sara Ferreira  #
+#                                                #  
+#                                                #  
+#                                                #
+#////////////////////////////////////////////////#
+
+
+
 import cv2
 import numpy as np
 import os
