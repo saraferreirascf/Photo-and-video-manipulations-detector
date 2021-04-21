@@ -251,13 +251,42 @@ class SampleJythonDataSourceIngestModule(DataSourceIngestModule):
             out_text = pipe.communicate()[0]
             self.log(Level.INFO, "Output from run is ==> " + str(out_text))
 
-            predictions=[]
-            #Predictions of the model
-            for i in out_text:
-                if i.isnumeric():
-                    predictions.append(int(i))
+            output=out_text.split("---")
+            predictions=list(output[0])
+            
+            probs=list(output[1])
+            self.log(Level.INFO, "probs " + str(probs))
 
+            final_pred=[]
             self.log(Level.INFO, "out_text " + str(predictions))
+            #Predictions of the model
+            for i in predictions:
+                if i.isnumeric():
+                    final_pred.append(int(i))
+
+            self.log(Level.INFO, "predictions " + str(final_pred))
+
+            #TODO: Sanitization of this to output this to blackboard
+            final_probs=[]
+            for i in probs:
+                if i.isnumeric():
+                    final_probs.append(int(i))
+
+            self.log(Level.INFO, "probs " + str(final_probs))
+
+            score=[]
+            for i in range(0,len(final_pred)-1):
+                #print(x_pred[i])
+                if str(final_pred[i])=="0":
+                    predict="false"
+                    score=probs[i][0]
+
+                else:
+                    predict="true"
+                    score=probs[i][1]
+
+            #print(predict+" with probability of: "+str(score)[0:7])
+            self.log(Level.INFO, "probs " + str(score))
 
             # Use blackboard class to index blackboard artifacts 
             blackboard = Case.getCurrentCase().getServices().getBlackboard()
@@ -279,7 +308,7 @@ class SampleJythonDataSourceIngestModule(DataSourceIngestModule):
             self.log(Level.INFO, "number of frames: "+str(len(predictions)))
 
 
-
+            #If a third of the frames are fake, probably fake (when scores isnt working)
             if count_fake>=(len(predictions)//3): 
                 artifact_content= file+" is probably fake"
             else:
