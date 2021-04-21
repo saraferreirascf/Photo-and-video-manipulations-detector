@@ -52,7 +52,7 @@ After that, you need to download our detector. Click on your prefered software i
 ### Alternative
 
 It is also possible to download the folder for each module
-- <a href="https://github.com/saraferreirascf/Deep-fake-detector/tree/main/deepfake_video" target="_blank">DeepFake photo detector</a><br/>
+- <a href="https://github.com/saraferreirascf/Deep-fake-detector/tree/main/deepfake_photo" target="_blank">DeepFake photo detector</a><br/>
 - <a href="https://github.com/saraferreirascf/Deep-fake-detector/tree/main/deepfake_video" target="_blank">DeepFake video detector</a><br/>
 
 Next, you need to unzip the rar and place the folder in the python plugin folder of Autopsy. In order do find that you can go to Autopsy > Tools > Python Plugins.
