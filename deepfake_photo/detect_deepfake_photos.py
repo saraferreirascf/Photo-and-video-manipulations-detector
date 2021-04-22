@@ -1,8 +1,9 @@
-# Sample module in the public domain. Feel free to use this as a template
-# for your modules (and you can remove this header and take complete credit
-# and liability)
-#
-# Contact: Brian Carrier [carrier <at> sleuthkit [dot] org]
+#This python autopsy module extracts jpg files from data source
+# and evaluates them with machine learning in order to note if the 
+# photo is manipulated or not.
+# This module was made mainly for deepfake detection but can detect
+# other type of manipulations too.
+# Contact: Sara Ferreira [sara (dot) ferreira (at) fc (dot) up (dot) pt]
 #
 # This is free and unencumbered software released into the public domain.
 #
@@ -27,7 +28,11 @@
 # ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 # OTHER DEALINGS IN THE SOFTWARE.
 
-# See http://sleuthkit.org/autopsy/docs/api-docs/latest/index.html for documentation
+#  Deep_fake_detector 
+# February 2021
+#
+# Comments
+#   Version 1.0 - Initial Version
 
 import jarray
 import json
