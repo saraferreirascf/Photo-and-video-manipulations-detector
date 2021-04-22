@@ -49,7 +49,7 @@ The <a href="https://github.com/saraferreirascf/Deep-fake-detector/tree/main/Sta
 
 **This dataset only contains videos.*
 
-<a href="https://www.autopsy.com/download/" target="_blank">Here</a>, it is possible to find the compilation of all datasets.
+<!--a href="https://www.autopsy.com/download/" target="_blank">Here</a>, it is possible to find the compilation of all datasets.-->
 
 
 ## Installation
