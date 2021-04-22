@@ -47,7 +47,7 @@ The <a href="https://github.com/saraferreirascf/Deep-fake-detector/tree/main/Sta
 | <a href="https://uporto-my.sharepoint.com/:f:/g/personal/up201606726_up_pt/ElCayyzNd5tMkvCbIFwjtrsBMiuuHpSR10iV8S5Tj5_vBw?e=9U2SFG" target="_blank">Dataset created by us </a> | 14 | 14 | jerherw |
 | <a href="https://arxiv.org/abs/1909.12962" target="_blank">Celeb-DFv1* </a> | 795 | 158 | hebghweb|  
 
-**This dataset contains videos.*
+**This dataset only contains videos.*
 
 <a href="https://www.autopsy.com/download/" target="_blank">Here</a>, it is possible to find the compilation of all datasets.
 
