@@ -1,12 +1,14 @@
 
-#////////////////////////////////////////////////#
-#                                                #
-#                                                #
-#         Standalone app by Sara Ferreira        #
-#                                                #  
-#                                                #  
-#                                                #
-#////////////////////////////////////////////////#
+#///////////////////////////////////////////////////////////////////////#
+#                                                                       #
+#                                                                       #
+#       Standalone app to detect deepfake in photos and videos v1       #
+#                                                                       #
+#      Sara Ferreira [sara (dot) ferreira (at) fc (dot) up (dot) pt]    #
+#                                                                       #  
+#                                                                       #  
+#                                                                       #
+#///////////////////////////////////////////////////////////////////////#
 
 import numpy as np
 import pickle

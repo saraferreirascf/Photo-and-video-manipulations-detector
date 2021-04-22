@@ -1,11 +1,14 @@
-#////////////////////////////////////////////////#
-#                                                #
-#                                                #
-#   Script to create test data by Sara Ferreira  #
-#                                                #  
-#                                                #  
-#                                                #
-#////////////////////////////////////////////////#
+#///////////////////////////////////////////////////////////////////////#
+#                                                                       #
+#                                                                       #
+#                  Script to generate test data v1                      #
+#           Extract features with Discrete Fourier Transform            #
+#                                                                       #
+#      Sara Ferreira [sara (dot) ferreira (at) fc (dot) up (dot) pt]    #
+#                                                                       #  
+#                                                                       #  
+#                                                                       #
+#///////////////////////////////////////////////////////////////////////#
 
 
 
