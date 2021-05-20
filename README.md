@@ -1,4 +1,4 @@
-# Video and photo manipulations detector :computer: :mag_right:
+# Photo and video manipulations detector :computer: :mag_right:
 
 Deep fake detector is a plugin for Autopsy that aims to detect deep fakes or even other types of image manipulations.
 There are two versions of this plugin, one to detect maipulations on photos and another to detect manipulations on videos.
