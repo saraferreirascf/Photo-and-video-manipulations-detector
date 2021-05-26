@@ -64,6 +64,6 @@ If you did everything well, now when you can see our plugin in the Autopsy when 
 
 ## Publications
 
-Sara Ferreira, Mário Antunes, Manuel E. Correia; "Forensic analysis of tampered digital photos"; 25th Iberoamerican Congress on Pattern Recognition (CIARP); vol.; pp.; Editor: Springer; May 2021; Porto; Portugal [To appear]
+Sara Ferreira, Mário Antunes, Manuel E. Correia; "Forensic analysis of tampered digital photos"; 25th Iberoamerican Congress on Pattern Recognition (CIARP); vol.; pp.; Editor: Springer; May 2021; Porto; Portugal
 
 
