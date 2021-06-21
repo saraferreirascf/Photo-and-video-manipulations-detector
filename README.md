@@ -5,11 +5,11 @@ There are two versions of this plugin, one to detect maipulations on photos and 
 
 ## Authors
 
-- Sara Ferreira - Department of Computer Science; Faculty of Sciences; University of Porto, 4169-007 Porto, Portugal; sara.ferreira@fc.up.pt
-- Mário Antunes - Computer Science and Communication Research Centre (CIIC), School of Technology and Management, Polytechnic of Leiria; 2411-901 Leiria; Portugal; mario.antunes@ipleiria.pt  <br>
-INESC TEC, CRACS; 4200-465 Porto; Portugal
+- Sara Ferreira - Department of Computer Science; Faculty of Sciences; University of Porto, Porto, Portugal; sara.ferreira@fc.up.pt
+- Mário Antunes - School of Technology and Management, Polytechnic of Leiria Computer Science and Communication Research Centre (CIIC); Polytechnic of Leiria, Leiria, Portugal, ; mario.antunes@ipleiria.pt  <br>;
+  INESC TEC, CRACS; Porto; Portugal
 - Manuel E. Correira - Department of Computer Science; Faculty of Sciences; University of Porto, 4169-007 Porto, Portugal;  mdcorrei@fc.up.pt <br>
-INESC TEC, CRACS; 4200-465 Porto; Portugal 
+INESC TEC, CRACS; Porto; Portugal 
 
 ## Features
 
