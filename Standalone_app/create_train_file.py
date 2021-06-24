@@ -12,10 +12,15 @@ import sys
 
 if(len(sys.argv) != 5):
         print("Not enough arguments")
-        print("insert dir to images")
+        print("insert <dir> <features> <max_files> <output filename>")
         exit()
 
 dir=sys.argv[1]
+
+if os.path.isdir(dir) is False:
+        print("this directory does not exist")
+        exit(0)
+
 N=int(sys.argv[2])
 number_iter=int(sys.argv[3])
 output_filename=str(sys.argv[4])+".pkl"
@@ -52,7 +57,7 @@ for subdir, dirs, files in os.walk(rootdir):
         
 
         filename = os.path.join(subdir, file)
-        print(filename)
+        #print(filename)
         if filename==dir+"/fake"+"\desktop.ini":
             continue
        
