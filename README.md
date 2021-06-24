@@ -63,7 +63,7 @@ If you did everything well, now when you can see our plugin in the Autopsy when 
 <!--## Demo-->
 
 ## Publications
-- Sara Ferreira, Mário Antunes, Manuel E. Correia; "Forensic analysis of tampered digital photos"; $25^{th}$ Iberoamerican Congress on Pattern Recognition (CIARP); May 2021; Porto; Portugal; to be published in Springer Lecture Notes on Computer Science. 
+- Sara Ferreira, Mário Antunes, Manuel E. Correia; "Forensic analysis of tampered digital photos"; 25th$ Iberoamerican Congress on Pattern Recognition (CIARP); May 2021; Porto; Portugal; to be published in Springer Lecture Notes on Computer Science. 
   - Paper is available in the proceedings of the conference, at \url{https://ciarp25.org/wp-content/uploads/sites/10/2021/05/CIARP25-Papers.pdf} (accessed on 16 June 2021), pp.402-411.
 - Sara Ferreira, Mário Antunes, Manuel E. Correia; "Exposing Manipulated Photos and Videos in Digital Forensics Analysis"; J. Imaging 2021; 
 
