@@ -55,7 +55,7 @@ def main():
         for file in files:        
             #print("entrey boy fake")
             filename = os.path.join(subdir, file)
-            if filename==dir+"/fake"+"\desktop.ini":
+            if filename==dir+"\desktop.ini":
                 continue
             
             img = cv2.imread(filename,0)
