@@ -22,10 +22,10 @@ INESC TEC, CRACS; Porto; Portugal
 
 <img src="https://github.com/saraferreirascf/Deep-fake-detector/blob/main/images/arquitetura-geral.png" alt="Click to download" width="600"/>
 
-To obtain a functional deepfake detection system using Discrete Fourier Transform and Machine Learning, it is necessary for a first step to obtain the input data to feed the classification model, which will be used to classify each image as manipulated (deepfake) or legitimate. 
+To obtain a functional deepfake detection system using Discrete Fourier Transform and Machine Learning, it is necessary a initial step in order to obtain the input data to feed the classification model, which will be used to classify each image as manipulated or legitimate. 
 
-Pre-processing and consists initially of taking three to four frames per second from the input videos. This was achieved by creating a python script and all the frames extracted are added to the final dataset.
-By having all the photos in the dataset, the features extraction are made by applying DFT method. The output is a labeled input datasets for both training and testing. The preprocessing phase reads the photos through the OpenCV library and further extracts their features. Using this method, exactly fifty features were obtained for each photo, that were then loaded into a new file with the corresponding label (0 for fake photos and 1 for the genuine ones). At the end of preprocessing phase, a fully labeled dataset is available and ready to feed the SVM model.
+Preprocessing consists initially in extracting three to four frames per second from input videos. This was achieved by creating a python script and all the frames extracted are added to the final input dataset.
+The next step is the features extraction that are made by applying DFT method. This feature extraction phase reads the photos (and frames) through the OpenCV library and further extracts their features. Using this method, exactly fifty features were obtained for each photo, that were then loaded into a new file with the corresponding label (0 for fake photos and 1 for the genuine ones). At the end of preprocessing phase, a fully labeled dataset is available and ready to feed the SVM model.
 
 The processing phase corresponds to the SVM processing. In a first step, the following parameters were chosen: The RBF (Radial basis function) kernel and a regularization parameter of 6.37. This choice took into account the best practices adopted for similar experiments and the comparison with other parameters.
 The implementation of SVM processing was made through scikit-learn library for Python 3.9.
@@ -34,7 +34,7 @@ The model created by SVM at the processing phase is then used to get a predictio
 
 For each SVM model evaluation, the results obtained includes confusion matrix, precision and recall; and the calculated prediction that allows us to deduce the probability of an image have been manipulated.
 
-The <a href="https://github.com/saraferreirascf/Deep-fake-detector/tree/main/Standalone_app" target="_blank">standalone application</a> architecture matches the Autopsy data source ingest module. The standalone application was developed before the Autopsy module, which gave the possibility to develop and test the method while disregarding the needed compatibility with the Python libraries and with the strict format that is required by Autopsy to the development of new modules.
+The <a href="https://github.com/saraferreirascf/Deep-fake-detector/tree/main/Scripts" target="_blank">standalone application</a> architecture matches the Autopsy data source ingest module. The standalone application was developed before the Autopsy module, which gave the possibility to develop and test the method while disregarding the needed compatibility with the Python libraries and with the strict format that is required by Autopsy to the development of new modules.
 
 ## Datasets
 
