@@ -14,3 +14,12 @@
   > - **0** split the train file in 2 parts: 67% for training and 33% for testing and gives an evaluation of the model.
   > - **5** 5-fold cross validation 
   > - **10** 10-fold cross validation
+
+- Convert pkl file to txt:
+  
+  ``` py pkl_to_txt.py <pkl filename> <output filename> ```
+  
+- Convert pkl file to csv:
+
+  ``` py pkl_to_csv.py <pkl filename> <output filename> ``` <br>
+  *this script generates two .csv files. One for the features and one for the labels.
