@@ -14,6 +14,12 @@
   > - **0** split the train file in 2 parts: 67% for training and 33% for testing and gives an evaluation of the model.
   > - **5** 5-fold cross validation 
   > - **10** 10-fold cross validation
+  - `$py cnn_model.py <training folder> <testing folder> <run mode>`
+  > **\<Training folder>** is the folder containing files to train the CNN model. This folder must have 2 sub-directories: "fake" and "real". <br> **\<Testing folder>** is the folder containing the files that we want to classify. This folder needs to have one sub-directory called "predict".<br> **\<run_mode>** explains how we want to test the model. <br>
+  > There are 2 options for **\<mode>** : <br>
+  > - **0** uses 10% of the training folder in order to test. 
+  > - **1** uses the testing folder in order to test.
+
 
 - Convert pkl file to txt:
   
