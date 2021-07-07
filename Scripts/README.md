@@ -7,7 +7,7 @@
   - `$py create_test_file.py <dir> <features> <max_files> <output filename> `
    > **\<dir>** is the directory containing all files target of classification <br> **\<features>** is the number of features we want to extract from each file (the same number of features of train file) <br> **\<max_files>** stands for the number of the files that will be selected from each folder, meaning the minimum between the fake files and real files  <br> **\<output_filename>** is the desired train file name.
 - Run classification model:
-  - `$py standaloneapp.py <train file> <test file> <k-fold option> `
+  - `$py svm_model.py <train file> <test file> <k-fold option> `
   > **\<train file>** is the train file to train the SVM model <br> **\<test file>** is the file containing the files that we want to classify <br> **\<k-fold option>** explains how we want to run the model. <br>
   > There are 4 options for **\<k-fold option>** : <br>
   > - **-1** gives a classification for each object in test_file. 
