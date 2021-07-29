@@ -1,8 +1,4 @@
-# Sample module in the public domain. Feel free to use this as a template
-# for your modules (and you can remove this header and take complete credit
-# and liability)
-#
-# Contact: Brian Carrier [carrier <at> sleuthkit [dot] org]
+# Contact: sara.ferreira <at> fc [dot] up [dot] pt
 #
 # This is free and unencumbered software released into the public domain.
 #
@@ -27,7 +23,6 @@
 # ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 # OTHER DEALINGS IN THE SOFTWARE.
 
-# See http://sleuthkit.org/autopsy/docs/api-docs/latest/index.html for documentation
 
 import jarray
 import json
